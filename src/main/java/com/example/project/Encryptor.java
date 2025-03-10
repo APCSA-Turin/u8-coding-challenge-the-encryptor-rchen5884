@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class Encryptor {
     public static void main(String[] args) {
-        String message = "";
-        generateEncryptArray(message, 2);
+        String message = "og=t s titshauthj w e mtwiio rnowks   otetnt oigdrn wiI o";
+        decryptMessage(message, 3);
     }
     
     public static int determineColumns(int messageLen, int rows) {
@@ -43,7 +43,7 @@ public class Encryptor {
                 newMessage += encryptArray[j][i];
             }
         }
-
+        // for testing purposes
         return newMessage;
     }
 
@@ -73,6 +73,8 @@ public class Encryptor {
                 }
             }
         }
+        // for testing purposes
+        System.out.println(originalMessage);
         return originalMessage;
     }
     
