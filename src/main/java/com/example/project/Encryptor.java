@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class Encryptor {
     public static void main(String[] args) {
-        String message = "og=t s titshauthj w e mtwiio rnowks   otetnt oigdrn wiI o";
-        decryptMessage(message, 3);
+        String message = "ye.t g=emerdn=l gani.l,apadyagmr ioVnae,rl idtk plt nwseleduaidegnoh  pracoooSa  mht tss w e-tna rhgna ritnil,ax ioCdeimdp r loltfatEriioef fuh be4 b h l d hsa setga stksil,iscahCshoof  w cl yson nyliridurehb r et egasvaeynci rkei  aei crd dlnrerso wedaimtoiic  srpR ehub  rHtj yge i hdod.wstoHi) rib R5paw A  oe n gaopne.onrpadgHetamlo r   oheAeeag h(eH  aT l ;a";
+        decryptMessage(message, 7);
     }
     
     public static int determineColumns(int messageLen, int rows) {
@@ -44,6 +44,7 @@ public class Encryptor {
             }
         }
         // for testing purposes
+        System.out.println(newMessage);
         return newMessage;
     }
 
